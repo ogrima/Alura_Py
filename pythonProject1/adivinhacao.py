@@ -19,6 +19,8 @@ while(tentativa <= max_tentativas):
             print("Errou, o chute foi maior que o numero secreto")
         elif(menor):
             print("Errou, o chute foi menor que o numero secreto")
+            print("Restam", max_tentativas - tentativa, "tentativas", sep=" ", end="!\n")
     tentativa = tentativa + 1
+
 
 print("Fim da Linha")
